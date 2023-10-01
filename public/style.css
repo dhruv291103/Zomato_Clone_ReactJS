@@ -1,0 +1,47 @@
+body{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color: lightpink;
+    }
+}
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(197, 84, 101);
+    }
+}
+@media screen and (max-width:1200px){
+    body{
+        background-color: rgb(119, 26, 40);
+    }
+}
+@media screen and (max-width:1000px){
+    body{
+        background-color: rgb(235, 19, 51);
+    }
+    .tileContainer{
+        width: 45%
+    }
+}
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(84, 15, 26);
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(35, 3, 8);
+    }
+    .tileContainer{
+        width: 100%;
+    }
+}
+
+body {
+    overflow: auto;
+  }
